@@ -1,0 +1,49 @@
+@media(max-width:800px){
+    html{
+        font-size: 9px;
+    }
+body{
+    padding: 0;
+}
+hr{
+    width: 100%;
+}
+.white {
+    border-radius: 0;
+}
+.container{
+    max-width: 800px;
+}
+.header-area {
+    padding: 0 50px;
+    padding-bottom: 20px;
+}
+.header-area img {
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+.preparation-area {
+    padding: 0 50px;
+}
+.ingredients-area{
+    padding: 30px 50px;
+}
+.instructions-area{
+    padding: 0 50px;
+}
+.nutrition-area{
+    padding: 30px 50px;
+}
+}
+
+@media(max-width:500px){
+p{
+    width: 76%;
+}
+.flex-left {
+    padding-left: 0;
+}
+.kcal{
+    padding: 10px;
+}
+}
